@@ -1,36 +1,110 @@
-header{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    width: 100%;
-    height: 100%;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-}
-.container{
+header {
+    background: #fff;
+    padding: 20px;
     display: flex;
+    justify-content: end;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-.logo{
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.banner {
     display: flex;
     align-items: center;
-    height: 100%;
-    width: 100%;
-    font-size: 10;
-    margin: 2rem;
+    padding: 50px;
 }
-button{
+
+.primeira{
+    margin: 1px;
+}
+
+.primeira2{
+    margin: 1px;
+    color: #505050;
+}
+
+.botao {
+    display: inline-block;
+    background: #56c5a5;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.img1{
+    display: flex;
+    justify-content: end;
+}
+
+.servicos-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.img2{
+    display: flex;
+    justify-content: start;
+}
+
+.segunda{
+    display: flex;
+    justify-content: start;
+}
+
+.servico {
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 10px;
+}
+
+.terceira{
+    display: flex;
+    justify-content: center;
+}
+
+.terceirabase{
+    display: flex;
+    justify-content: center;
+    color: #505050;
+    margin: 1px;
+}
+
+.terceiraimg{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.botoes{
+
+.quarta{
     display: flex;
-    flex-direction: row;
-    height: 3rem;
-    margin: 2rem;
+    justify-content: center;
 }
-.Inicio{
-    padding: 1rem;
-}
-.Sobre{
-    
+
+footer {
+    background: #56c5a5;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    color:#fff;
 }

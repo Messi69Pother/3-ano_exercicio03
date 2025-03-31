@@ -8,32 +8,64 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <h2>beautysalon.</h2>
-        </div>
-        <div class="botoes">
-            <button class="Inicio">Inicio</button>
-            <button class="Sobre">Sobre</button>
-            <button class="Servicos">Servicos</button>
-            <button class="Depoimentos">Depoimentos</button>
-            <button class="contato">contato</button>
-        </div>
+        <h1>Beauty Salon</h1>
+        <nav>
+            <ul>
+                <button class="btn">Inicio</button>
+                <button class="btn">Sobre</button>
+                <button class="btn">Serviços</button>
+                <button class="btn">Depoimentos</button>
+                <button class="btn">Contato</button>
+            </ul>
+        </nav>
     </header>
-
-    <main>
-        <div class="container">
-            <h1>Saúde natural para
-                os seus cabelos
-                </h1>
-                <h3>Um salão exclusivo em São Paulo,
-                especializado em tratamentos naturais
-                </h3>
-                <button class="botaocorpo">Agendar um horário</button>
-                <img src="./img/primeira-tela.png" alt="">
+    
+    <section class="banner">
+        <div class="texto">
+            <h2 class="primeira">Saúde natural para</h2>
+            <h2 class="primeira">os seus cabelos</h2>
+            <p class="primeira2">Um salão exclusivo em São Paulo,
+            <p class="primeira2">especializado em tratamentos naturais.</p>
+            <button class="botao">Agendar um horário</button>
         </div>
-    </main>
+        <div class="img1">
+            <img src="./img/primeira.png" alt="">
+        </div>
+    </section>
+    
+    <section id="sobre">
+        <img src="./img/segunda.png" alt="">
+        <h2 class="segunda">Sobre nós</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, fugiat eos? Aliquid doloribus, animi sit quasi omnis veniam blanditiis magnam! Facilis necessitatibus minima maiores blanditiis explicabo, provident eligendi dignissimos esse!</p>
+    </section>
+    
+    <section id="servicos">
+        <h1 class="terceira">Serviços</h1>
+        <h3 class="terceirabase">Com mais de 10 anos no mercado, o Beautysalon já</h3>
+        <h3 class="terceirabase">conquistou clientes de inúmeros países com seus tratamentos</h3>
+        <h3 class="terceirabase">exclusivos e totalmente naturais</h3>
 
-    <footer></footer>
+        <div class="servicos-container">
+            <div class="servico">
+                <img class="terceiraimg" src="./img/terceira.png" alt="">
+            </div>
+        </div>
+    </section>
+    
+    <section id="depoimentos">
+        <h1 class="quarta">Depoimentos de quem ja passou por aqui</h1>
+        <img class="quarta" src="./img/quarta.png" alt="">
+    </section>
+    
+    <section id="contato">
+        <h2>Entre em contato com a gente!</h2>
+        <p>Agende um horário ou tire suas dúvidas.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2021 Beauty Salon.</p>
+        <p>&copy; Todos os direitos reservados.</p>
+    </footer>
 
     <script src="./scripts/main.js"></script>
 </body>
